@@ -114,6 +114,3 @@ def play(board)
     puts "The game is a Draw!"
   end
 end
-
-
-
