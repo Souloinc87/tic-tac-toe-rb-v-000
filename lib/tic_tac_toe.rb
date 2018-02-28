@@ -107,7 +107,8 @@ end
 
 def play(board)
   turn(board)
-  if over?(board)
+  over?(board)
+  if won?(board)
     puts "Congradulations!"
   elsif draw?(board)
     puts "The game is a Draw!"
