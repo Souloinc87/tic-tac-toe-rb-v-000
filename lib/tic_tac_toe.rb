@@ -109,5 +109,5 @@ def play(board)
   turn_count(board)
   input = turn(board)
 
-  
+
 end
