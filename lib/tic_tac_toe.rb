@@ -104,3 +104,6 @@ def winner(board)
   combo = won?(board)
   board[combo.last] if(combo)
 end
+
+def play(board)
+end
