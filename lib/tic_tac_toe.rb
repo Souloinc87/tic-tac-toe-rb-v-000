@@ -106,8 +106,8 @@ def winner(board)
 end
 
 def play(board)
+  turn(board)
   turn_count(board)
-  input = turn(board)
   if over?(board)
     puts "Congradulations!"
   elsif draw?(board)
