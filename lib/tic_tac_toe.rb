@@ -106,7 +106,7 @@ def winner(board)
 end
 
 def play(board)
-  turn(board)
+  turn_count(board)
   over?(board)
   if won?(board)
     puts "Congradulations!"
