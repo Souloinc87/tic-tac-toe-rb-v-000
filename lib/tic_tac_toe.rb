@@ -109,7 +109,7 @@ def play(board)
   turn_count(board)
   over?(board)
   if won?(board)
-    puts "Congradulations!"
+    puts "Congradulations X!"
   elsif draw?(board)
     puts "The game is a Draw!"
   end
