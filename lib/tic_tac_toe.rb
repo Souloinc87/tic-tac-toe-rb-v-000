@@ -108,6 +108,12 @@ end
 def play(board)
   turn_count(board)
   input = turn(board)
-
-
+  if over?(board)
+    puts "Congradulations!"
+  elsif draw?(board)
+    puts "The game is a Draw!"
+  end
 end
+
+
+
